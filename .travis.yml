@@ -34,3 +34,5 @@ branches:
 env:
  global:
    #- GH_REF: github.com/yimogit/metools.git
+notifications:
+   webhooks:https://oapi.dingtalk.com/robot/send?access_token=f143e038ec39cef41a9f7df4744b13daca3d4e72ce79e8cc2b2f493bf7e1f7a2
